@@ -58,7 +58,7 @@ const server = http.createServer((req, res) => {
             res.end(stringifyResult);
            
     }
-//updat todo
+//update todo
     else if(pathname==="/todos/update-todo" && req.method==="PATCH"){
        let data="";
         req.on("data",(chunk)=>{
